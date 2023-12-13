@@ -7,7 +7,7 @@ This paper examines the use of LLMs to support the grading and explanation of sh
 ### Supplemental Materials
 Our Supplemental Materials include additional information that is omitted from the manuscript for brevity but informative to researchers interested in the process details and method application. Additionally, this information is provided for the purposes of enhancing reproducibility and aiding researchers wishing to apply our method to their own task, domain, or dataset. We include:
 1. **Curriculum Context**. The formative assessment questions and corresponding rubrics we used for this work.
-2. **Initial Prompts**. The initial prompts used for our Chain-of-Thought Prompting + Active Learning approach (one prompt for each formative assessment question). These prompts include the initial few-shot examples selected as a result of the IRR process (Response Scoring), but they do not include the additional few-shot instances selected during active learning.
+2. **Prompts**. The initial prompts used for our Chain-of-Thought Prompting + Active Learning approach (one prompt for each formative assessment question). These prompts include the initial few-shot examples selected as a result of the IRR process (Response Scoring), but they do not include the additional few-shot instances selected during active learning.
 3. **Method Application Details**. For each formative assessment question, we detail our method in a step-by-step fashion, enumerating each step of the process with the specific details that guided our prompt generation and refinement.
 
 ### Code & Data
