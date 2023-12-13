@@ -1,0 +1,56 @@
+system: You are a teacher whose job it is to score middle school student short answer formative assessment question responses in the Earth Science domain.
+
+Students are asked the following question: What are two things that you would change about the model to explain where the water goes?
+
+Importantly, it does not matter if the student refers to Libby's model or Taylor's model because both models are identical.
+
+You are to score the responses based on the following rubric:
+Direction of Runoff Arrow [0 or 1]: 1 point if the student mentions the water runoff arrow should be pointing in the opposite direction (it currently points uphill, but it should point downhill). 0 points if the student does not identify that the runoff arrow needs to change directions.
+Reasoning About Direction of Runoff Arrow [0 or 1]: 1 point if the student received a point for Direction of Runoff Arrow AND provides an explanation or justification for why the runoff arrow should point in the opposite direction that demonstrates mechanistic reasoning with respect to Direction of Runoff Arrow. 0 points if the student did not receive a point for Direction of Runoff Arrow, or if the student did receive a point for Direction of Runoff Arrow but failed to demonstrate mechanistic reasoning with regard to Direction of Runoff Arrow.
+Size of Arrows [0 or 1]: 1 point if the student mentions that the arrow sizes need to change (in the model, the absorption and runoff arrows sum to a value larger than the rainfall arrow, which violates conservation of matter). 0 points if the student does not mention that the arrow sizes need to be changed.
+Reasoning About Size of Arrows [0 or 1]: 1 point if the student received a point for Size of Arrows AND provides an explanation or justification for why the arrow sizes need to be changed that demonstrates mechanistic reasoning with respect to Size of Arrows. 0 points if the student did not receive a point for Size of Arrows, or if the student did receive a point for Size of Arrows but did not demonstrate mechanistic reasoning with regard to Size of Arrows.
+Total Score [0 to 4]: Sum of scores from Direction of Runoff Arrow, Reasoning About Direction of Runoff Arrow, Size of Arrows, and Reasoning About Size of Arrows scores.
+&&&
+user: I think that Taylor needs to make the rainfall the biggest arrow because the absorption and runoff is derived from the rainfall. I also think that the runoff should point down because water can't move uphill.
+&&&
+assistant: Direction of Runoff Arrow: The student says "the runoff should point down". This indicates that the student understands the runoff arrow should be pointing in the opposite direction (i.e., downhill). Based on the rubric, the student earned a score of 1.
+Reasoning About Direction of Runoff Arrow: The student received a point for Direction of Runoff Arrow, and the student justifies his or her response by saying "because water can't move uphill". This demonstrates mechanistic reasoning with regard to Direction of Runoff Arrow. Based on the rubric, the student earned a score of 1.
+Size of Arrows: The student says "Taylor needs to make the rainfall the biggest arrow". This demonstrates that the student understands the arrow sizes need to be changed. Based on the rubric, the student earned a score of 1.
+Reasoning About Size of Arrows: The student received a point for Reasoning About Direction of Runoff Arrow, and the student explains his or her response by saying "because the absorption and runoff is derived from the rainfall". This illustrates that the student understands conservation of matter, in that the size of the runoff arrow and the size of the absorption arrow must sum to the size of the rainfall arrow. This demonstrates mechanistic reasoning with regard to Size of Arrows. Based on the rubric, the student earned a score of 1.
+Total Score: The student received 1 point for Direction of Runoff Arrow, 1 point for Reasoning About Direction of Runoff Arrow, 1 point for Size of Arrows, and 1 point for Reasoning About Size of Arrows, so the student's total score is 4 points.
+&&&
+user: She could have been able to explain what the arrow that was going up means. It would be clearer if it was labeled.
+&&&
+assistant: Direction of Runoff Arrow: The student made no mention of the runoff arrow needing to change to point in the opposite direction. Based on the rubric, the student earned a score of 0.
+Reasoning About Direction of Runoff Arrow: The student did not receive a point for Direction of Runoff Arrow, so the student is ineligible to receive a point for Reasoning About Direction of Runoff Arrow. Based on the rubric, the student earned a score of 0.
+Size of Arrows: The student did not discuss the size of the arrows or that the arrow sizes need to change. Based on the rubric, the student earned a score of 0.
+Reasoning About Size of Arrows: The student did not receive a point for Size of Arrows, so the student is ineligible to receive a point for Reasoning About Size of Arrows. Based on the rubric, the student earned a score of 0.
+Total Score: The student did not receive any points for Direction of Runoff Arrow, Reasoning About Direction of Runoff Arrow, Size of Arrows, or Reasoning About Size of Arrows, so the student's total score is 0 points.
+&&&
+user: The renoff should go down hill and less water should be absorbed.
+&&&
+assistant: Direction of Runoff Arrow: The student states "The renoff should go down hill". This indicates the student understands that the runoff arrow needs to change to point downhill in the opposite direction. Based on the rubric, the student earned a score of 1.
+Reasoning About Direction of Runoff Arrow: The student received a point for Direction of Runoff Arrow, but the student did not justify or explain his or her response, so the student does not demonstrate mechanistic reasoning with respect to Direction of Runoff Arrow. Based on the rubric, the student earned a score of 0.
+Size of Arrows: The student says "less water should be absorbed". This shows that the student understands the absorption arrow should be smaller and that the size of the arrows needs to change. Based on the rubric, the student earned a score of 1.
+Reasoning About Size of Arrows: The student received a point for Size of Arrows, but the student failed to demonstrate mechanistic reasoning with respect to Size of Arrows because the student did not explain or justify his or her response. Based on the rubric, the student earned a score of 0.
+Total Score: The student received 1 point for Direction of Runoff Arrow and 1 point for Size of Arrows, so the student's total score is 2 points.
+&&&
+user: I would put an arrow going towards the Stream because some water goes there.
+&&&
+assistant: Direction of Runoff Arrow: The student says "I would put an arrow going towards the Stream". At first glance, it seems that the student understands the direction of the runoff arrow needs to change to point downhill towards the stream. However, if an arrow pointing towards the stream is added to the model, but the original arrow is not removed, the model will still be wrong because there will now be two runoff arrows (one pointing downhill and one pointing uphill), when there should only be one runoff arrow that points downhill towards the stream. Because of this, if the student says that an arrow should be added to the model that points downhill in the correct direction, but the student fails to mention removing the previous incorrect runoff arrow pointing uphill, the student does not earn a point for Direction of Runoff Arrow. Based on the rubric, the student earned a score of 0.
+Reasoning About Direction of Runoff Arrow: The student did not receive a point for Direction of Runoff Arrow, so the student is ineligible to receive a point for Reasoning About Direction of Runoff Arrow. Based on the rubric, the student earned a score of 0.
+Size of Arrows: The student does not mention arrow size or demonstrate that he or she understands that the size of the arrows need to be changed. Based on the rubric, the student earned a score of 0.
+Reasoning About Size of Arrows: The student did not receive a point for Size of Arrows, so the student is ineligible to receive a point for Reasoning About Size of Arrows. Based on the rubric, the student earned a score of 0.
+Total Score: The student did not receive any points for Direction of Runoff Arrow, Reasoning About Direction of Runoff Arrow, Size of Arrows, or Reasoning About Size of Arrows, so the student's total score is 0 points.
+&&&
+user: I would change the direction of the runoff. I would also put what the different sized arrows mean and why they are there
+&&&
+assistant: Direction of Runoff Arrow: The student mentions he or she "would change the direction of the runoff". This shows that the student understands that the runoff arrow is pointing in the wrong direction and needs to be changed to point downhill towards the stream. Based on the rubric, the student earned a score of 1.
+Reasoning About Direction of Runoff Arrow: The student received a point for Direction of Runoff Arrow, but the student did not exhibit mechanistic reasoning with regard to Direction of Runoff Arrow because the student did not justify or explain his or her response. Based on the rubric, the student earned a score of 0.
+Size of Arrows: The student mentions "the different sized arrows" but does not specifically mention that the arrow sizes need to be changed. Based on the rubric, the student earned a score of 0.
+Reasoning About Size of Arrows: The student did not receive a point for Size of Arrows, so the student is ineligible to receive a point for Reasoning About Size of Arrows. Based on the rubric, the student earned a score of 0.
+Total Score: The student received 1 point for Direction of Runoff Arrow, so the student's total score is 1 point.
+&&&
+user: [INSERT INSTANCE HERE]
+&&&
+assistant:
