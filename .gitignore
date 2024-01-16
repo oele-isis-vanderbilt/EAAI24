@@ -162,7 +162,5 @@ cython_debug/
 # Local files
 .DS_Store
 ~*
-Curriculum Context.docx
-Prompts.docx
-Method Application Details.docx
-
+*.docx
+.gitignore
